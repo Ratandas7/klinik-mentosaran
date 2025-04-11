@@ -172,6 +172,7 @@ header {
   justify-content: center;
   align-items: center;
   column-gap: 20px;
+  flex-flow: row wrap;
 }
 .service_item {
   width: 280px;
@@ -207,21 +208,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 40px;
+  flex-flow: row wrap;
   padding: 100px 0px;
-  column-gap: 20px;
 }
 .trusted_area {
-  background-color: var(--primary);
-  width: 632px;
-  height: 320px;
   width: 50%;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.trusted_area img {
-  margin-top: 50px;
 }
 .trusted_content {
   width: 40%;
@@ -295,6 +291,7 @@ header {
   justify-content: center;
   align-items: center;
   column-gap: 20px;
+  flex-flow: row wrap;
 }
 .gallery_item ul li {
   transition: all 0.5s ease;
