@@ -59,16 +59,20 @@
 
   .hero_main {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .hero_container {
     width: 100%;
   }
   .hero_left .social_item {
-    margin-left: 16px;
+    /* margin: 0px; */
+    padding-left: 20px;
+    width: 0px;
     margin-top: 0px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
   }
   .hero_time {
     margin-top: 0px;
@@ -189,10 +193,36 @@
     padding-top: 60px;
   }
   .service_container {
-    margin: 60px auto;
+    margin: 0px auto;
+    padding: 60px;
   }
   .navbar_logo {
     width: 60px;
     height: 60px;
+  }
+  .gallery_item ul,
+  .service_container ul {
+    flex-flow: row wrap;
+  }
+  body {
+    background-color: var(--secondary);
+  }
+  .service_container,
+  .doctor,
+  .contact {
+    background-color: var(--primary);
+  }
+  .trusted_container {
+    margin-top: 200px;
+    padding: 0px;
+  }
+  .trusted_content {
+    padding-top: 80px;
+  }
+  .doctor {
+    margin-top: 60px;
+  }
+  .contact {
+    padding: 60px 0px;
   }
 }
